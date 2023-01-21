@@ -63,7 +63,7 @@ function gotResults(error, results){
         //console.log(timeNow); // shows current date and time";
         for(i=0; i<objects.length; i++) {
             objects_time.push({"label": objects[i].label, "time": timeNow});
-            console.log(objects_time);
+            //console.log(objects_time);
         }
         //console.log(objects);
         document.getElementById("status").innerHTML = "Status: Detected Object";
